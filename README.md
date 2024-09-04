@@ -2,7 +2,7 @@
 
 ## Instructions
 
-- the home page features a "main story card" and three "recent article cards" below it.  Using the provided design, recreate the main card and article cards on the home page.  Some sample images are provided in the `/public` folder.
+- the home page features a "main story card" and three "recent article cards" below it.  Using the provided design, recreate the main card or article cards on the home page.  Some sample images are provided in the `/public` folder.
 - extra for this page: if you would like, you can pull sample data from the `/api/home` route.  This route takes an empty GET request and returns sample information in this structure (date is ms since epoch):
 ```
 interface StoryInfo {
@@ -29,7 +29,7 @@ export interface GetHomeResult {
 }
 ```
 
-- the header contains a link to a contact us page.  Ignoring styling, create a contact us form that submits a POST request to the `/api/contact-us` endpoint.  Details below.
+- the header contains a link to a contact us page.  if you would like (optionally), ignoring styling, create a contact us form that submits a POST request to the `/api/contact-us` endpoint.  Details below.
 
 The contact us endpoint expects formData with three fields
 - name: a required string
